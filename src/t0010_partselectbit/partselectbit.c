@@ -1,4 +1,4 @@
-#include "svdpi.h"
+#include "../svdpi.h"
 
 int partselectbit(const svBitPackedArrRef data, int idx) {
     svBitVecVal tmp[1];

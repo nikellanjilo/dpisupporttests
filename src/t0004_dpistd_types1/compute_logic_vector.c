@@ -1,4 +1,4 @@
-#include "svdpi.h"
+#include "../svdpi.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

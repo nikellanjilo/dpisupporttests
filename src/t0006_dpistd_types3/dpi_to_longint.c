@@ -1,4 +1,4 @@
-#include "svdpi.h"
+#include "../svdpi.h"
 #include <stdint.h>
 
 long long dpi_to_longint(const svBitVecVal* a) {
