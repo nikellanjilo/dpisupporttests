@@ -18,7 +18,7 @@
 */
 
 module top;
-	import "DPI-C" function void svPutBitArrElemVecValFunction(output bit [7:0] data[], input  int index, input  byte unsigned value);
+	import "DPI-C" function void svPutBitArrElemVecValFunction(output bit [7:0] data[], input  int index, input byte unsigned value);
 	bit [7:0] arr[0:7];
 	bit [7:0] arr2 [0:7];
 	initial 
