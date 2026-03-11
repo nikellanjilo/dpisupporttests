@@ -17,8 +17,8 @@ t0012 - get part select of 3-bit vector through svGetPartSelectBit
 t0013 - get part select of 3-bit logic vector through svGetPartSelectLogic like SV-longint  
 t0014 - mirror values in bit[31:0] through svPutBitselBit  
 t0015 - mirror values in logic[31:0] through svPutBitselLogic  
-t0016 - (doesn't work)??? through svPutPartselBit  
-t0017 - (doesn't work)??? through svPutPartselLogic  
+t0016 - put values in bit [31:0] vector through svPutPartselBit  
+t0017 - put values in logic [31:0] vector through svPutPartselLogic  
 t0018 - print left array value through svLeft  
 t0019 - print right array value through svRight  
 t0020 - print lowest array value svLow  
@@ -67,8 +67,8 @@ t0062 - put value in 1-bit bit-3D array through svPutBitArrElem3
 t0063 - get scope handler through svGetScope (print scope name via svGetNameFromScope)  
 t0064 - set scope through svSetScope (print scope name via export SystemVerilog function)  
 t0065 - print scope name through svGetScopeFromName     
-t0066 - ??? through svPutUserData  
-t0067 - ??? through svGetUserData     
+t0066 - init user data and increment values in next calling through svPutUserData  
+t0067 - init user data and increment values in next calling through svGetUserData     
 t0068 - ??? through svIsDisabledState    
 t0069 - ??? through svAckDisabledState   
 t0070 - ??? through svSizeOfBitPackedArr   
