@@ -71,7 +71,7 @@ t0066 - init user data and increment values in next calling through svPutUserDat
 t0067 - init user data and increment values in next calling through svGetUserData     
 t0068 - ??? through svIsDisabledState    
 t0069 - ??? through svAckDisabledState   
-t0070 - ??? through svSizeOfBitPackedArr   
+t0070 - get size of bit [127:0] array through svSizeOfBitPackedArr   
 t0071 - ??? through svSizeOfLogicPackedArr   
 t0072 - ??? through svPutBitVec32   
 t0073 - ??? through svPutLogicVec32   
@@ -84,8 +84,8 @@ t0079 - ??? through svPutSelectLogic
 t0080 - print value of reg [31:0] with offset through svGet32Bits    
 t0081 - print value of reg [31:0] with offset through svGet64Bits     
 t0082 - put value in bit [31:0] vector through svPutPartSelectBit    
-t0083 - ??? through svPutPartSelectLogic   
-t0084 - ??? through svPutBitArrElemVec32   
+t0083 - put value in slice of logic [31:0] vector through svPutPartSelectLogic   
+t0084 - put value in element of bit [31:0] array through svPutBitArrElemVec32 (doesnt work in Questa)  
 t0085 - ??? through svPutBitArrElem1Vec32    
 t0086 - ??? through svPutBitArrElem2Vec32   
 t0087 - ??? through svPutBitArrElem3Vec32   
@@ -93,14 +93,14 @@ t0088 - ??? through svPutLogicArrElemVec32
 t0089 - ??? through svPutLogicArrElem1Vec32  
 t0090 - ??? through svPutLogicArrElem2Vec32   
 t0091 - ??? through svPutLogicArrElem3Vec32  
-t0092 - ??? through svGetBitArrElemVec32   
-t0093 - ??? through svGetBitArrElem1Vec32  
-t0094 - ??? through svGetBitArrElem2Vec32  
-t0095 - ??? through svGetBitArrElem3Vec32  
-t0096 - ??? through svGetLogicArrElemVec32  
-t0097 - ??? through svGetLogicArrElem1Vec32   
-t0098 - ??? through svGetLogicArrElem2Vec32   
-t0099 - ??? through svGetLogicArrElem3Vec32   
+t0092 - get element value of bit [31:0] 1D-array through svGetBitArrElemVec32   
+t0093 - get element value of bit [31:0] 1D-array through svGetBitArrElem1Vec32  
+t0094 - get element value of bit [31:0] 2D-array through svGetBitArrElem2Vec32  
+t0095 - get element value of bit [31:0] 3D-array through svGetBitArrElem3Vec32  
+t0096 - get element value of logic [31:0] 1D-array through svGetLogicArrElemVec32 (doesnt work in Questa)     
+t0097 - get element value of logic [31:0] 1D-array through svGetLogicArrElem1Vec32 (doesnt work in Questa)   
+t0098 - get element value of logic [31:0] 2D-array through svGetLogicArrElem2Vec32 (doesnt work in Questa)   
+t0099 - get element value of logic [31:0] 3D-array through svGetLogicArrElem3Vec32 (doesnt work in Questa)   
 t0100 - ??? through svScope  
 t0101 - ??? through svOpenArrayHandle   
 t0102 - ??? through svGetBitselBit   
