@@ -32,34 +32,34 @@ t0027 - print values of byte unsigned array through svGetArrElemPtr
 t0028 - print values of byte unsigned array through svGetArrElemPtr1    
 t0029 - print values of byte unsigned two-dimensional array through svGetArrElemPtr2   
 t0030 - print values of byte unsigned 3D array through svGetArrElemPtr3   
-t0031 - put values in bit [7:0] array through svPutBitArrElemVecVal    
-t0032 - put values in bit [7:0] array svPutBitArrElem1VecVal   
-t0033 - put values in bit [7:0] 2D-array svPutBitArrElem2VecVal   
-t0034 - put values in bit [7:0] 3D-array through svPutBitArrElem3VecVal   
-t0035 - put values in logic [7:0] array through svPutLogicArrElemVecVal   
-t0036 - put values in logic [7:0] array  through svPutLogicArrElem1VecVal     
-t0037 - put values in logic [7:0] 2D-array through svPutLogicArrElem2VecVal     
-t0038 - put values in logic [7:0] 3D-array through svPutLogicArrElem3VecVal   
-t0039 - get and print values of bit [7:0] array through svGetBitArrElemVecVal   
-t0040 - get and print values of bit [7:0] array through svGetBitArrElem1VecVal   
-t0041 - get and print values of bit [7:0] 2D-array through svGetBitArrElem2VecVal   
-t0042 - get and print values of bit [7:0] 3D-array through svGetBitArrElem3VecVal   
-t0043 - get and print values of logic [7:0] array through svGetLogicArrElemVecVal   
-t0044 - get and print values of logic [7:0] array through svGetLogicArrElem1VecVal   
-t0045 - get and print values of logic [7:0] 2D-array through svGetLogicArrElem2VecVal   
-t0046 - get and print values of logic [7:0] 3D-array through svGetLogicArrElem3VecVal   
-t0047 - get and print values of bit [7:0] array through svGetBitArrElem   
-t0048 - get and print values of bit [7:0] array through svGetBitArrElem1   
-t0049 - get and print values of bit [7:0] 2D-array through svGetBitArrElem2   
-t0050 - get and print values of bit [7:0] 3D-array through svGetBitArrElem3   
-t0051 - get and print values of logic [7:0] array through svGetLogicArrElem   
-t0052 - get and print values of logic [7:0] array through svGetLogicArrElem1   
-t0053 - get and print values of logic [7:0] 2D-array through svGetLogicArrElem2   
-t0054 - get and print values of logic [7:0] 3D-array through svGetLogicArrElem3   
-t0055 - put value in logic [7:0] array through svPutLogicArrElem   
-t0056 - put value in logic [7:0] array through svPutLogicArrElem1   
-t0057 - put value in logic [7:0] 2D-array through svPutLogicArrElem2   
-t0058 - put value in logic [7:0] 3D-array through svPutLogicArrElem3   
+t0031 - put values in 3D-bit array through svPutBitArrElemVecVal    
+t0032 - put values in 2D-bit array svPutBitArrElem1VecVal   
+t0033 - put values in 1D-bit array svPutBitArrElem2VecVal   
+t0034 - put values in 1D-bit array through svPutBitArrElem3VecVal   
+t0035 - put values in 1D-logic array through svPutLogicArrElemVecVal   
+t0036 - put values in 1D-logic array through svPutLogicArrElem1VecVal     
+t0037 - put values in 2D-logic array through svPutLogicArrElem2VecVal     
+t0038 - put values in 3D-logic array through svPutLogicArrElem3VecVal   
+t0039 - get and print values of 1D-bit array through svGetBitArrElemVecVal   
+t0040 - get and print values of 1D-bit array through svGetBitArrElem1VecVal   
+t0041 - get and print values of 2D-bit array through svGetBitArrElem2VecVal   
+t0042 - get and print values of 3D-bit array through svGetBitArrElem3VecVal   
+t0043 - get and print values of 1D-logic array through svGetLogicArrElemVecVal   
+t0044 - get and print values of 1D-logic array through svGetLogicArrElem1VecVal   
+t0045 - get and print values of 2D-logic array through svGetLogicArrElem2VecVal   
+t0046 - get and print values of 3D-logic array through svGetLogicArrElem3VecVal   
+t0047 - get and print values of 1D-bit array through svGetBitArrElem   
+t0048 - get and print values of 1D-bit array through svGetBitArrElem1   
+t0049 - get and print values of 2D-bit array through svGetBitArrElem2   
+t0050 - get and print values of 3D-bit array through svGetBitArrElem3   
+t0051 - get and print values of 1D-logic array through svGetLogicArrElem   
+t0052 - get and print values of 1D-logic array through svGetLogicArrElem1   
+t0053 - get and print values of 2D-logic array through svGetLogicArrElem2   
+t0054 - get and print values of 3D-logic array through svGetLogicArrElem3   
+t0055 - put value in 1D-logic array through svPutLogicArrElem   
+t0056 - put value in 1D-logic array through svPutLogicArrElem1   
+t0057 - put value in 2D-logic array through svPutLogicArrElem2   
+t0058 - put value in 3D-logic array through svPutLogicArrElem3   
 t0059 - put value in 1-bit bit-array through svPutBitArrElem    
 t0060 - put value in 1-bit bit-array through svPutBitArrElem1   
 t0061 - put value in 1-bit bit-2D array through svPutBitArrElem2   
@@ -93,17 +93,17 @@ t0088 - ??? through svPutLogicArrElemVec32
 t0089 - ??? through svPutLogicArrElem1Vec32  
 t0090 - ??? through svPutLogicArrElem2Vec32   
 t0091 - ??? through svPutLogicArrElem3Vec32  
-t0092 - get element value of bit [31:0] 1D-array through svGetBitArrElemVec32   
-t0093 - get element value of bit [31:0] 1D-array through svGetBitArrElem1Vec32  
-t0094 - get element value of bit [31:0] 2D-array through svGetBitArrElem2Vec32  
-t0095 - get element value of bit [31:0] 3D-array through svGetBitArrElem3Vec32  
-t0096 - get element value of logic [31:0] 1D-array through svGetLogicArrElemVec32 (doesnt work in Questa)     
-t0097 - get element value of logic [31:0] 1D-array through svGetLogicArrElem1Vec32 (doesnt work in Questa)   
-t0098 - get element value of logic [31:0] 2D-array through svGetLogicArrElem2Vec32 (doesnt work in Questa)   
-t0099 - get element value of logic [31:0] 3D-array through svGetLogicArrElem3Vec32 (doesnt work in Questa)   
+t0092 - get bit value of 3D-bit array through svGetBitArrElemVec32   
+t0093 - get bit value of 2D-bit array through svGetBitArrElem1Vec32  
+t0094 - get bit value of 1D-bit array through svGetBitArrElem2Vec32  
+t0095 - get bit value of 1D-bit array through svGetBitArrElem3Vec32  
+t0096 - get element value of logic 1D-array through svGetLogicArrElemVec32 (doesnt work in Questa)     
+t0097 - get element value of logic 1D-array through svGetLogicArrElem1Vec32 (doesnt work in Questa)   
+t0098 - get element value of logic 2D-array through svGetLogicArrElem2Vec32 (doesnt work in Questa)   
+t0099 - get element value of logic 3D-array through svGetLogicArrElem3Vec32 (doesnt work in Questa)   
 t0100 - ??? through svScope  
 t0101 - ??? through svOpenArrayHandle   
-t0102 - ??? through svGetBitselBit   
-t0103 - ??? through svGetBitselLogic   
-t0104 - ??? through svGetPartselBit   
-t0105 - ??? through svGetPartselLogic   
+t0102 - get bit of bit-vector through svGetBitselBit (doesnt work in Questa)   
+t0103 - get bit of logic-vector through svGetBitselLogic (doesnt work in Questa)   
+t0104 - get slice value of bit-vector through svGetPartselBit   
+t0105 - get slice value of logic-vector through svGetPartselLogic   
