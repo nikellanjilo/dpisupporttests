@@ -71,16 +71,16 @@ t0066 - init user data and increment values in next calling through svPutUserDat
 t0067 - init user data and increment values in next calling through svGetUserData     
 t0068 - ??? through svIsDisabledState    
 t0069 - ??? through svAckDisabledState   
-t0070 - get size of bit [127:0] array through svSizeOfBitPackedArr   
-t0071 - ??? through svSizeOfLogicPackedArr   
-t0072 - ??? through svPutBitVec32   
-t0073 - ??? through svPutLogicVec32   
-t0074 - ??? through svGetBitVec32     
-t0075 - ??? through svGetLogicVec32  
-t0076 - ??? through svGetSelectBit    
-t0077 - ??? through svGetSelectLogic    
-t0078 - ??? through svPutSelectBit   
-t0079 - ??? through svPutSelectLogic   
+t0070 - get size of bit-vector in bytes through svSizeOfBitPackedArr   
+t0071 - get size of logic-vector in bytes through svSizeOfLogicPackedArr   
+t0072 - put value in bit-vector through svPutBitVec32   
+t0073 - put value in logic-vector through svPutLogicVec32   
+t0074 - get value of bit-vector through svGetBitVec32     
+t0075 - get value of logic-vector through svGetLogicVec32  
+t0076 - get bit in bit-vector through svGetSelectBit (doesnt work in Questa)      
+t0077 - get bit in logic-vector through svGetSelectLogic (doesnt work in Questa)    
+t0078 - put bit in bit-vector through svPutSelectBit   
+t0079 - put bit in logic-vector  through svPutSelectLogic   
 t0080 - print value of reg [31:0] with offset through svGet32Bits    
 t0081 - print value of reg [31:0] with offset through svGet64Bits     
 t0082 - put value in bit [31:0] vector through svPutPartSelectBit    
